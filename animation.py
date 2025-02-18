@@ -22,7 +22,6 @@ def drawstrike(night,flash,xzero,yzero):
         ranxzero = random.randint(-screenwidth//5,screenwidth//5)
         returnhome(flash,ranxzero,yzero)
         for i in range(20):
-                flash.penup()
                 night.bgcolor(255-(11*i)-20,255-(11*i)-20,255-(11*i))
                 flash.setheading(random.randint(270-60,270+60))
                 flashlenght = random.randint(10, 100)

@@ -2,8 +2,8 @@ import turtle
 
 class init():
     # sets up variables for window size
-    screenwidth = 1920
-    screenheigth = 1080
+    screenwidth = 2560
+    screenheigth = 1440
     windowwidth = screenwidth/2
     windowheight = screenheigth/2
 
@@ -19,7 +19,7 @@ class init():
     flash.hideturtle()
     flash.color(230,230,255)
     flash.width(5)
-    flash.speed(0)
+    flash.speed(10)
     flash.penup()
 
     xzero = 0
