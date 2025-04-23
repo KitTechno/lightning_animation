@@ -2,8 +2,8 @@ import turtle
 
 class init():
     # sets up variables for window size
-    screenwidth = 2560
-    screenheigth = 1440
+    screenwidth = 1920
+    screenheigth = 1080
     windowwidth = screenwidth/2
     windowheight = screenheigth/2
 
