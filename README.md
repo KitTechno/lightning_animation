@@ -9,4 +9,4 @@ In animation.py line 4 and 20 can be used to play a sound but it stalls the anim
 random_functions.py was inteded to output random numbers so that the lightning strike is different everytime.
 It is not used because the random functionality was implemented in animations.py
 
-github repo: 
+github repo: https://github.com/KitTechno/lightning_animation.git
