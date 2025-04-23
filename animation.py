@@ -1,7 +1,7 @@
 # import random_functions as ranfun
 import random
 import init
-from playsound import playsound
+# from playsound import playsound
 
 screenheight = init.init.screenheigth
 screenwidth = init.init.screenwidth
@@ -17,7 +17,7 @@ def flashscreen(night):
         # night.bgcolor(10,10,30)
 
 def drawstrike(night,flash,xzero,yzero):
-        playsound("lightning sound effect.wav")
+        # playsound("lightning sound effect.wav")
         flash.penup()
         ranxzero = random.randint(-screenwidth//5,screenwidth//5)
         returnhome(flash,ranxzero,yzero)
